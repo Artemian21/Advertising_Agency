@@ -2,7 +2,6 @@
 using Advertising_Agency.Domain.Enums;
 using Advertising_Agency.Domain.Models;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Advertising_Agency.WebAPI.Controllers

@@ -1,9 +1,7 @@
 ﻿using Advertising_Agency.BusinessLogic.Interfaces;
 using Advertising_Agency.Domain.Models;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using System.Security.Claims;
 
 namespace Advertising_Agency.WebAPI.Controllers
 {

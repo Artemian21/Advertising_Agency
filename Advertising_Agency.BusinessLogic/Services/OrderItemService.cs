@@ -3,11 +3,6 @@ using Advertising_Agency.DataAccess.Entities;
 using Advertising_Agency.DataAccess.Interfaces;
 using Advertising_Agency.Domain.Models;
 using AutoMapper;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Advertising_Agency.BusinessLogic.Services
 {
@@ -48,7 +43,7 @@ namespace Advertising_Agency.BusinessLogic.Services
             var existing = await _orderItemRepository.GetByIdAsync(orderItemDto.OrderItemId);
             if (existing == null) throw new Exception("Order item not found");
 
-            _mapper.Map(orderItemDto, existing); // AutoMapper оновлює поля
+            _mapper.Map(orderItemDto, existing);
             await _orderItemRepository.UpdateAsync(existing);
         }
 

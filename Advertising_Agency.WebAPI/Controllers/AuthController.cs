@@ -1,6 +1,5 @@
 ﻿using Advertising_Agency.BusinessLogic.Interfaces;
 using Advertising_Agency.Domain.Models;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Advertising_Agency.WebAPI.Controllers
